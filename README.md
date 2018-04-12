@@ -15,8 +15,8 @@ A very easy wordpress plugin for add shortcode to embed video from porn sites
 like xvideos, xhmaster.
 
 ## Use ##
-[xvideos url=url-video]
-[xhamster url=url-video]
+* [xvideos url=url-video]
+* [xhamster url=url-video]
 
 
 ## Changelog ##
