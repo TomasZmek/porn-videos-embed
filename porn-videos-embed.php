@@ -23,9 +23,9 @@ function pve_register_shortcodes(){
 }
 
 /*
-  Shortcodes for xvideos
-  work:  [xvideos url=[url to video]]
-*/
+ *  Shortcodes for xvideos
+ *  work:  [xvideos url=[url to video]]
+ */
 function pve_xvideos($atts){
 
   extract(shortcode_atts(array(
@@ -45,9 +45,9 @@ function pve_xvideos($atts){
 
 
 /*
-  Shortcodes for xhamster
-  work:  [xhamster url=[url to video]]
-*/
+ *  Shortcodes for xhamster
+ *  work:  [xhamster url=[url to video]]
+ */
 function pve_xhamster($atts){
 
   extract(shortcode_atts(array(
