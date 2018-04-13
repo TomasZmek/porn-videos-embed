@@ -20,6 +20,7 @@ add_action('init', 'pve_register_shortcodes');
 function pve_register_shortcodes(){
   add_shortcode('xvideos', 'pve_xvideos');
   add_shortcode('xhamster', 'pve_xhamster');
+  add_shortcode('pornhub', 'pve_pornhub');
 }
 
 /*
@@ -56,7 +57,6 @@ function pve_xhamster($atts){
     "height" => "400"
   ), $atts));
 
-  print_r("width: ".$width);
   $str = $url;
   $re = '/(\d+)/';
   preg_match_all($re, $str,$matches, PREG_OFFSET_CAPTURE);
@@ -64,4 +64,26 @@ function pve_xhamster($atts){
   $xhamster ='
         <iframe width="'.$width.'" height="'.$height.'" src="https://xhamster.com/xembed.php?video='.$xhamster_id.'" frameborder="0" scrolling="no" allowfullscreen></iframe>';
   return $xhamster;
+}
+
+
+/*
+ *  Shortcodes for pornhub
+ *  work:  [pornhub url=[url to video]]
+ */
+function pve_pornhub($atts){
+
+  extract(shortcode_atts(array(
+    "url" => 'https://',
+    "width" => "640",
+    "height" => "360"
+  ), $atts));
+  $str = $url;
+  $re = '/viewkey\=(\S+)/';
+  preg_match_all($re, $str,$matches, PREG_OFFSET_CAPTURE);
+  $pornhub_id = $matches[1][0][0];
+  $pornhub ='
+        <iframe src="https://www.pornhub.com/embed/'.$pornhub_id.'" frameborder=0 width="'.$width.'" height="'.$height.'" scrolling="no" allowfullscreen></iframe>
+        ';
+  return $pornhub;
 }
