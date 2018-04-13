@@ -1,26 +1,40 @@
 # Porn Videos Embed #
 * Tags: videos, embed, adult, sex
 * Tested up to: 4.9.5
-* Stable tag: 0.1
+* Stable tag: 0.2
 * Requires at least: 4.0
 * Requires PHP: 7.0.0
 * License: GPLv3 or later
 * License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
 A very easy wordpress plugin for add shortcode to embed video from porn sites
-like xvideos, xhmaster.
+like xvideos, xhmaster, pornhub.
 
 ## Description ##
 A very easy wordpress plugin for add shortcode to embed video from porn sites
-like xvideos, xhmaster.
+like xvideos, xhmaster, pornhub.
+
+## Support Sites ##
+xvideos.com<br />
+xhamster.com<br />
+pornhub.com<br />
 
 ## Use ##
-* [xvideos url=url-video]
-* [xhamster url=url-video]
+### Basic ###
+`[xvideos url=url-video]`<br />
+`[xhamster url=url-video]`<br />
+`[pornhub url=urlvideo]`<br />
+
+### Advanced ###
+
+Same for all shortcodes. You can set width and height.<br />
+`[xvideo url=url-video width=640 height=360]`
 
 
 ## Changelog ##
 
+### 0.2 ###
+* add shortcode pronhub
 ### 0.1 ###
 * add shortcode xvideos
 * add shortcode xhamster
