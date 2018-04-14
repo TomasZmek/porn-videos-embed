@@ -21,14 +21,14 @@ pornhub.com<br />
 
 ## Use ##
 ### Basic ###
-`[xvideos url=url-video]`<br />
-`[xhamster url=url-video]`<br />
-`[pornhub url=urlvideo]`<br />
+`[xvideos url="url-video"]`<br />
+`[xhamster url="url-video"]`<br />
+`[pornhub url="url-video"]`<br />
 
 ### Advanced ###
 
 Same for all shortcodes. You can set width and height.<br />
-`[xvideo url=url-video width=640 height=360]`
+`[xvideo url="url-video" width="640" height="360"]`
 
 
 ## Changelog ##

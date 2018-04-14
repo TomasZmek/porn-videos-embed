@@ -3,7 +3,7 @@
 /*
  * Plugin Name: Porn videos embed
  * Plugin URI: https://perteus.cz/plugins/pornvideo-embed
- * Description: Simble plugin to add shortcode to post and embed video from porntube sites (xvideos,xhmaster)
+ * Description: Simble plugin to add shortcode to post and embed video from porntube sites.
  * Version: 0.2
  * Author: Tomáš Zmek @ perteus
  * Author URI: https://zmek.eu
@@ -21,11 +21,11 @@ function pve_register_shortcodes(){
   add_shortcode('xvideos', 'pve_xvideos');
   add_shortcode('xhamster', 'pve_xhamster');
   add_shortcode('pornhub', 'pve_pornhub');
+  add_shortcode('tnaflix', 'pve_tnaflix');
 }
 
 /*
- *  Shortcodes for xvideos
- *  work:  [xvideos url=[url to video]]
+ *  Shortcode for xvideos
  */
 function pve_xvideos($atts){
 
@@ -46,8 +46,7 @@ function pve_xvideos($atts){
 
 
 /*
- *  Shortcodes for xhamster
- *  work:  [xhamster url=[url to video]]
+ *  Shortcode for xhamster
  */
 function pve_xhamster($atts){
 
@@ -68,8 +67,7 @@ function pve_xhamster($atts){
 
 
 /*
- *  Shortcodes for pornhub
- *  work:  [pornhub url=[url to video]]
+ *  Shortcode for pornhub
  */
 function pve_pornhub($atts){
 
@@ -86,4 +84,25 @@ function pve_pornhub($atts){
         <iframe src="https://www.pornhub.com/embed/'.$pornhub_id.'" frameborder=0 width="'.$width.'" height="'.$height.'" scrolling="no" allowfullscreen></iframe>
         ';
   return $pornhub;
+}
+
+/*
+* Shorcode for tnaflix
+*/
+
+function pve_tnaflix($atts){
+
+  extract(shortcode_atts(array(
+    "url" => 'https://',
+    "width" => "580",
+    "height" => "460"
+  ), $atts));
+
+  $str = $url;
+  $re = '/video(\d+)/';
+  preg_match_all($re, $str,$matches, PREG_OFFSET_CAPTURE);
+  $tnaflix_id = $matches[1][0][0];
+  $tnaflix ='
+        <iframe src="https://player.tnaflix.com/video/'.$tnaflix_id.'" width="'.$width.'" height="'.$height.'" frameborder="0"></iframe>';
+  return $tnaflix;
 }
