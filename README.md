@@ -18,12 +18,14 @@ like xvideos, xhmaster, pornhub.
 xvideos.com<br />
 xhamster.com<br />
 pornhub.com<br />
+tnaflix.com<br />
 
 ## Use ##
 ### Basic ###
 `[xvideos url="url-video"]`<br />
 `[xhamster url="url-video"]`<br />
 `[pornhub url="url-video"]`<br />
+`[tnaflix url="url-video"]`<br />
 
 ### Advanced ###
 
@@ -33,6 +35,8 @@ Same for all shortcodes. You can set width and height.<br />
 
 ## Changelog ##
 
+### 0.3 ###
+* add shortcode tnaflix
 ### 0.2 ###
 * add shortcode pronhub
 ### 0.1 ###

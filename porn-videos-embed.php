@@ -4,7 +4,7 @@
  * Plugin Name: Porn videos embed
  * Plugin URI: https://perteus.cz/plugins/pornvideo-embed
  * Description: Simble plugin to add shortcode to post and embed video from porntube sites.
- * Version: 0.2
+ * Version: 0.3
  * Author: Tomáš Zmek @ perteus
  * Author URI: https://zmek.eu
  * License: GPL3
