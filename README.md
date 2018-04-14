@@ -1,7 +1,7 @@
 # Porn Videos Embed #
 * Tags: videos, embed, adult, sex
 * Tested up to: 4.9.5
-* Stable tag: 0.2
+* Stable tag: 0.3
 * Requires at least: 4.0
 * Requires PHP: 7.0.0
 * License: GPLv3 or later
