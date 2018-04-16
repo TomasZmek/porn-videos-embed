@@ -38,6 +38,10 @@ gotporn.com<br />
 Same for all shortcodes. You can set width and height.<br />
 `[xvideo url="url-video" width="640" height="360"]`
 
+## Compatible ##
+
+The shorcodes work in WpForo plugin. You must enable support Wordpress Shortcode in Settings WpForo.
+
 
 ## Changelog ##
 
