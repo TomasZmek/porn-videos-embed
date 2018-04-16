@@ -1,7 +1,7 @@
 # Porn Videos Embed #
 * Tags: videos, embed, adult, sex
 * Tested up to: 4.9.5
-* Stable tag: 0.3
+* Stable tag: 0.4
 * Requires at least: 4.0
 * Requires PHP: 7.0.0
 * License: GPLv3 or later
@@ -19,6 +19,9 @@ xvideos.com<br />
 xhamster.com<br />
 pornhub.com<br />
 tnaflix.com<br />
+tube8.com<br />
+vporn.com<br />
+gotporn.com<br />
 
 ## Use ##
 ### Basic ###
@@ -26,6 +29,9 @@ tnaflix.com<br />
 `[xhamster url="url-video"]`<br />
 `[pornhub url="url-video"]`<br />
 `[tnaflix url="url-video"]`<br />
+`[tube8 url="url-video"]`<br />
+`[vporn url="url-video"]`<br />
+`[gotporn url="url-video"]`<br />
 
 ### Advanced ###
 
@@ -35,6 +41,10 @@ Same for all shortcodes. You can set width and height.<br />
 
 ## Changelog ##
 
+### 0.4 ###
+* add shortcode tube8
+* add shortcode vporn
+* add shortcode gotporn
 ### 0.3 ###
 * add shortcode tnaflix
 ### 0.2 ###
