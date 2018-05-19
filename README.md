@@ -1,7 +1,7 @@
 # Porn Videos Embed #
 * Tags: videos, embed, adult, sex
-* Tested up to: 4.9.5
-* Stable tag: 0.4
+* Tested up to: 4.9.6
+* Stable tag: 0.7
 * Requires at least: 4.0
 * Requires PHP: 7.0.0
 * License: GPLv3 or later
@@ -22,9 +22,15 @@ tnaflix.com<br />
 tube8.com<br />
 vporn.com<br />
 gotporn.com<br />
+drtuber.com<br />
+youjizz.com<br />
+sunporno.com<br />
+eporner.com<br />
+cliphunter.com<br />
+homemoviestube.com<br />
 
 ## Use ##
-### Basic ###
+1) Manualy
 `[xvideos url="url-video"]`<br />
 `[xhamster url="url-video"]`<br />
 `[pornhub url="url-video"]`<br />
@@ -32,18 +38,43 @@ gotporn.com<br />
 `[tube8 url="url-video"]`<br />
 `[vporn url="url-video"]`<br />
 `[gotporn url="url-video"]`<br />
+`[drtuber url="url-video"]`<br />
+`[youjizz url="url-video"]`<br />
+`[sunporno url="url-video"]`<br />
+`[eporner url="url-video"]`<br />
+`[cliphunter url="url-video"]`<br />
+`[homemoviestube url="url-video"]`<br />
 
-### Advanced ###
-
-Same for all shortcodes. You can set width and height.<br />
+ You can set width and height.<br />
 `[xvideo url="url-video" width="640" height="360"]`
 
-## Compatible ##
+2) Button 'PVE' in wordpress editor.
 
-The shorcodes work in WpForo plugin. You must enable support Wordpress Shortcode in Settings WpForo.
+## WP Foro support ##
+
+The shorcodes work with WpForo plugin. You must enable support Wordpress Shortcode in Settings WpForo.
+You must add shortcode manualy.
 
 
 ## Changelog ##
+
+### 0.8 ###
+* add shortcode eporner
+* add shortcode cliphunter
+* add shortcode homemoviestube
+
+### 0.7.1 ###
+* fix icon button in wordpress editor
+
+### 0.7 ###
+* add shortcode sunporno
+
+### 0.6 ###
+* add button to wordpress editor
+
+### 0.5 ###
+* add shortcode drtuber
+* add shortcode youjizz
 
 ### 0.4 ###
 * add shortcode tube8
