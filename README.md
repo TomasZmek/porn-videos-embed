@@ -30,7 +30,7 @@ cliphunter.com<br />
 homemoviestube.com<br />
 
 ## Use ##
-1) Manualy
+1) Manualy<br />
 `[xvideos url="url-video"]`<br />
 `[xhamster url="url-video"]`<br />
 `[pornhub url="url-video"]`<br />
