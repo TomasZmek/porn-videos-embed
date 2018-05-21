@@ -1,7 +1,7 @@
 # Porn Videos Embed #
 * Tags: videos, embed, adult, sex
 * Tested up to: 4.9.6
-* Stable tag: 0.7
+* Stable tag: 0.9
 * Requires at least: 4.0
 * Requires PHP: 7.0.0
 * License: GPLv3 or later
@@ -28,6 +28,8 @@ sunporno.com<br />
 eporner.com<br />
 cliphunter.com<br />
 homemoviestube.com<br />
+pervertslut.com <br />
+
 
 ## Use ##
 1) Manualy
@@ -44,6 +46,7 @@ homemoviestube.com<br />
 `[eporner url="url-video"]`<br />
 `[cliphunter url="url-video"]`<br />
 `[homemoviestube url="url-video"]`<br />
+`[pervertslut url="url-video"]<br />
 
  You can set width and height.<br />
 `[xvideo url="url-video" width="640" height="360"]`
@@ -57,6 +60,10 @@ You must add shortcode manualy.
 
 
 ## Changelog ##
+
+### 0.9 ###
+* add shortcode pervertslut
+* transfer function for shortcode of each page as a separate file in folder sites
 
 ### 0.8 ###
 * add shortcode eporner
@@ -80,10 +87,13 @@ You must add shortcode manualy.
 * add shortcode tube8
 * add shortcode vporn
 * add shortcode gotporn
+
 ### 0.3 ###
 * add shortcode tnaflix
+
 ### 0.2 ###
 * add shortcode pronhub
+
 ### 0.1 ###
 * add shortcode xvideos
 * add shortcode xhamster
