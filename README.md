@@ -30,6 +30,17 @@ cliphunter.com<br />
 homemoviestube.com<br />
 pervertslut.com <br />
 
+## Install ##
+
+* Download zip https://github.com/TomasZmek/porn-videos-embed/releases
+* Unzip all and folder upload to your webserver /wp-content/plugins
+* Rename folder to porn-videos-embed
+* In wordpress administration -> Plugins aktivate Porn Videos Embed
+
+
+You can install from official wordpress plugins repository. The name plugins is Porn Videos Embed.
+https://wordpress.org/plugins/porn-videos-embed/
+
 
 ## Use ##
 1) Manualy<br />
