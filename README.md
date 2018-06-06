@@ -1,4 +1,4 @@
-# Project moved to https://gitlab.com/tomaszmek/porn-videos-embed #
+# Project moved to https://git.zrnek.cz/tomaszmek/porn-videos-embed/ #
 
 # Porn Videos Embed #
 * Tags: videos, embed, adult, sex
