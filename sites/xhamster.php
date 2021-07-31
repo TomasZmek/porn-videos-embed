@@ -2,7 +2,7 @@
 /**
  * Shortcode for xhamster
  */
- 
+
 function pve_xhamster($atts){
 
     extract(shortcode_atts(array(
@@ -12,11 +12,11 @@ function pve_xhamster($atts){
     ), $atts));
   
     $str = $url;
-    $re = '/(\d+)/';
-    preg_match_all($re, $str,$matches, PREG_OFFSET_CAPTURE);
-    $xhamster_id = $matches[1][0][0];
-    $xhamster ='
-          <iframe width="'.$width.'" height="'.$height.'" src="https://xhamster.com/xembed.php?video='.$xhamster_id.'" frameborder="0" scrolling="no" allowfullscreen></iframe>';
+    $re = '/-(?:.(?!-))+$/';
+    preg_match_all($re, $str,$matches);
+    $matches[0][0] = str_replace("-", "", $matches[0][0]);
+    $xhamster_id = $matches[0][0];
+    $xhamster ='<iframe width="'.$width.'" height="'.$height.'" src="https://xhamster.com/embed/'.$xhamster_id.'" frameborder="0" scrolling="no" allowfullscreen></iframe>';
     return $xhamster;
   }
 
